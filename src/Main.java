@@ -7,7 +7,7 @@ public class Main {
         System.out.printf( "Введите строку : " );
         String text = scanner.nextLine();
         String[] words = text.toLowerCase().split( "\\s+" );
-        text.
+        
         for ( String word : words ){
             char[] charArray = word.toCharArray();
             Arrays.sort( charArray );
